@@ -1,0 +1,7 @@
+Flags = -Wall -Wundef -pedantic -pedantic-errors -std=c++11
+CPP = g++
+
+
+all : Makefile main.cpp
+	$(CPP) $(Flags) -o d main.cpp
+
